@@ -33,6 +33,7 @@ header h1{
 
 main{
     display: flex;
+    flex-direction: column;
     width: 100%;
     align-items: center;
 }
@@ -48,6 +49,7 @@ main img{
     align-items: center;
     padding: 0.5rem;
     color: white;
+    text-align: center;
 }
 
 main a{
@@ -56,3 +58,4 @@ main a{
     border-radius: 3rem;
     background: #4d4dff;
 }
+
